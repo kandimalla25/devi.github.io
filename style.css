@@ -1,40 +1,65 @@
-/* Reset some default styles */
-body, h1, h2, h3, h4, h5, h6, p, ul, li {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
   }
   
-  /* Style the header and navigation */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Style the main section */
-  main {
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
     padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
   }
   
-  /* Style the footer */
-  footer {
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  .section-heading {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .section-content {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .section-item {
+    margin-bottom: 10px;
+  }
+  
+  .section-item-title {
+    font-weight: bold;
+  }
+  
+  .project-item {
+    margin-bottom: 10px;
+  }
+  
+  .project-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .project-description {
+    margin-bottom: 5px;
+  }
+  
+  .project-technologies {
+    margin-bottom: 10px;
+  }
+  
+  .project-link {
+    color: #333;
   }
   
