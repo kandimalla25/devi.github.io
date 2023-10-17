@@ -2,7 +2,10 @@ body {
   font-family: var(--default-font);
   font-size: var(--type-size);
   line-height: var(--line-height);
-  background-color: var(--backgroundColor);
+  background-image: url('https://drive.google.com/file/d/1fT44yO0ROwnESMZlMpH8fl7X7AwU-ktQ/view?usp=share_link');
+  background-size: cover; /* Adjust the size to cover the entire container */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-position: center; /* Center the image horizontally and vertically */
   color: var(--grey1);
   overflow-x: hidden!important;
   overflow-y: scroll;
@@ -93,7 +96,6 @@ body {
     --line-height: 1.6;
     --emoji-font: "color-emoji";
     --default-font: "Graphik",sans-serif;
-    --backgroundColor: #0f0f0fb6;
     --inputBackgroundColor: #f2f2f2;
     --primaryBorderColor: #e5e5e5;
     --secondaryBorderColor: #f2f2f2;
